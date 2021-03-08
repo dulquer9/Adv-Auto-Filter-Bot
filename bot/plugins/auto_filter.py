@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
+# (c) @NickxFury
 
 import re
 import time
@@ -128,7 +128,7 @@ async def connect(bot: Bot, update):
     else:
         await bot.send_message(
             chat_id=group_id,
-            text=f"Having Problem While Connecting...Report @CrazyBotsz",
+            text=f"Having Problem While Connecting...Report @NickxFury",
             reply_to_message_id=update.message_id
         )
         return
@@ -208,7 +208,7 @@ async def disconnect(bot, update):
     else:
         await bot.send_message(
             chat_id=group_id,
-            text=f"Having Problem While Disconnecting...Report @CrazyBotsz",
+            text=f"Having Problem While Disconnecting...Report @NickxFury",
             reply_to_message_id=update.message_id
         )
         return
@@ -353,10 +353,10 @@ async def cb_handler(bot, query:CallbackQuery, group=1):
     
     if cb_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/NickxFury'),
+            InlineKeyboardButton('Source Code 🧾', url ='https://t.me/kurachkanjiedukkatte')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('⭕️ JOIN OUR GROUP ⭕️', url='https://t.me/MOVIECLUB_chat')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
