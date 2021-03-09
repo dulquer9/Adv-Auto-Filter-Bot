@@ -22,8 +22,7 @@ class Translation(object):
 Now You Are All Set And Ready To Go...
 
 Just Send Any Text Will Try To Lookup In Channel And Provide You The Link</i>
-
- <b>© @MOVIECLUB_CHAT</b>""""""
+""""""
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code>Mr. X Bot</code>
 
