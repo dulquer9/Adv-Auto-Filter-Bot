@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
+# (c) @NickxFury
 
 class Translation(object):
     
     START_TEXT = """<b>Hai {}!!</b>
-<i>Am Just A Simple Hand Auto Filter Bot_ Bot For Searching Files From Channel...
-Just Sent Any Text I Will Search In All Connected Chat And Reply You With The Message link
-You Can Even Connected To 3 Channels At A Time...</i>"""    
+<i>Sorry.. This Bot Can Only Be Used in Movie Club Group!...</i>"""    
     
     HELP_TEXT = """<i><u>Usage Guide</u></i>
 <i>=> Add Bot To Any Channel As Admin With Add Members/ Invite Users Via Link
@@ -20,7 +18,7 @@ Just Send Any Text Will Try To Lookup In Channel And Provide You The Link</i>
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code>Mr. X</code>
-<b>➥ Creator</b> : <b><i><a herf="https://t.me/AlbertEinstein_TG">https://t.me/NickxFury</a></i></b>
+<b>➥ Creator</b> : <b><i><a herf="https://t.me/NickxFury">NickxFury</a></i></b>
 <b>➥ Language</b> : <code>Python3</code>
 <b>➥ Library</b> : <i><a herf="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0</a></i>
 <b>➥ Source Code</b> : <i><a herf="https://t.me/kurachkanjiedukkatte">GitHub</a></i>
